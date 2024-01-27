@@ -735,10 +735,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 2cfa207e-33f0-4972-b476-97fc1e31ff4c
+  cloudProjectId: d8d6e9f8-5906-4380-8fb4-5d2ceb4adafd
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: My project (1)
+  projectName: Shooter Game
   organizationId: sgyates5
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
