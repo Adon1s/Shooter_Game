@@ -9,9 +9,9 @@ namespace Gameplay
         public Rigidbody2D rb;
         public int damage = 1; // Damage the bullet will deal
 
-        void Start()
+        public void SetDirection(Vector2 direction)
         {
-            rb.velocity = transform.right * speed;
+            rb.velocity = direction * speed;
         }
 
         void OnCollisionEnter2D(Collision2D collision)

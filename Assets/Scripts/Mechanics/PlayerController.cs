@@ -17,6 +17,8 @@ namespace Platformer.Mechanics
         public AudioClip jumpAudio;
         public AudioClip respawnAudio;
         public AudioClip ouchAudio;
+        public Transform firePoint;
+
 
         /// <summary>
         /// Max horizontal speed of the player.
@@ -119,9 +121,17 @@ namespace Platformer.Mechanics
             }
 
             if (move.x > 0.01f)
+            {
                 spriteRenderer.flipX = false;
-            else if (move.x < -0.01f)
+                if (firePoint != null) firePoint.localEulerAngles = Vector3.zero;
+
+            }
+        
+        else if (move.x < -0.01f)
+            {
                 spriteRenderer.flipX = true;
+                if (firePoint != null) firePoint.localEulerAngles = new Vector3(0, 180, 0);
+            }
 
             animator.SetBool("grounded", IsGrounded);
             animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
