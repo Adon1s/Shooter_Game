@@ -9,7 +9,7 @@ namespace Gameplay
         public Rigidbody2D rb;
         public int damage = 1; // Damage the bullet will deal
 
-        public void SetDirection(Vector2 direction)
+        public void LaunchBullet(Vector2 direction)
         {
             rb.velocity = direction * speed;
         }
@@ -23,7 +23,7 @@ namespace Gameplay
                 if (enemyHealth != null)
                 {
                     Debug.Log("Enemy Health before hit: " + enemyHealth.currentHP);
-                    enemyHealth.TakeDamage(damage); // Or enemyHealth.Decrement();
+                    enemyHealth.TakeDamage(damage);
                     Debug.Log("Enemy Health after hit: " + enemyHealth.currentHP);
                 }
                 else
