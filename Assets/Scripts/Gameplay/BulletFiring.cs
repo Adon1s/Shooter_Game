@@ -6,6 +6,7 @@ namespace Gameplay
     {
         public Transform firePoint; // The point from where the bullet will be fired
         public GameObject bulletPrefab; // The bullet prefab to shoot
+        private SpriteRenderer spriteRenderer;
 
         public float bulletForce = 20f; // The force to apply to the bullet
 
@@ -17,22 +18,29 @@ namespace Gameplay
                 Shoot();
             }
         }
+        
+        void Awake()
+        {
+            spriteRenderer = GetComponent<SpriteRenderer>();
+            if (spriteRenderer == null)
+            {
+                Debug.LogError("SpriteRenderer not found on the GameObject");
+            }
+        }
+
 
         void Shoot()
         {
-            Debug.Log("Shoot method called.");
-            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation); // Create a bullet instance
-            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>(); // Assuming the bullet has a Rigidbody2D component
+            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            BulletMovement bulletMovement = bullet.GetComponent<BulletMovement>();
 
-            if (rb != null)
+            if (bulletMovement != null)
             {
-                rb.AddForce(firePoint.right * bulletForce, ForceMode2D.Impulse); // Add force to the bullet
-                Debug.Log("Bullet instantiated and force applied.");
-            }
-            else
-            {
-                Debug.Log("Rigidbody2D not found on the bullet prefab.");
+                bool isFacingLeft = spriteRenderer.flipX;
+                bulletMovement.SetDirection(isFacingLeft ? Vector2.left : Vector2.right);
             }
         }
+
     }
 }
+

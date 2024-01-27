@@ -22,7 +22,7 @@ namespace Platformer.Gameplay
             }
             else
             {
-                // Handle enemy death, or do nothing if it's not needed
+                Schedule<EnemyDeath>().enemy = health.gameObject.GetComponent<EnemyController>();
             }
         }
     }
