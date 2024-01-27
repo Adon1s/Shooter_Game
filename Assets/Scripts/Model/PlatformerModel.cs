@@ -12,11 +12,6 @@ namespace Platformer.Model
     public class PlatformerModel
     {
         /// <summary>
-        /// The virtual camera in the scene.
-        /// </summary>
-        public Cinemachine.CinemachineVirtualCamera virtualCamera;
-
-        /// <summary>
         /// The main component which controls the player sprite, controlled 
         /// by the user.
         /// </summary>
