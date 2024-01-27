@@ -37,7 +37,7 @@ namespace Gameplay
             if (bulletMovement != null)
             {
                 bool isFacingLeft = spriteRenderer.flipX;
-                bulletMovement.SetDirection(isFacingLeft ? Vector2.left : Vector2.right);
+                bulletMovement.LaunchBullet(isFacingLeft ? Vector2.left : Vector2.right);
             }
         }
 

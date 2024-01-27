@@ -9,7 +9,7 @@ namespace Gameplay
         public Rigidbody2D rb;
         public int damage = 1; // Damage the bullet will deal
 
-        public void SetDirection(Vector2 direction)
+        public void LaunchBullet(Vector2 direction)
         {
             rb.velocity = direction * speed;
         }
@@ -17,13 +17,21 @@ namespace Gameplay
         void OnCollisionEnter2D(Collision2D collision)
         {
             Debug.Log("Bullet collided with: " + collision.gameObject.name);
+
+            if (collision.gameObject.CompareTag("Level"))
+            {
+                Debug.Log("Bullet collided with level.");
+                Destroy(gameObject);
+                return; // Exit the function to prevent further processing
+            }
+
             if (collision.gameObject.CompareTag("Enemy"))
             {
                 Health enemyHealth = collision.gameObject.GetComponent<Health>();
                 if (enemyHealth != null)
                 {
                     Debug.Log("Enemy Health before hit: " + enemyHealth.currentHP);
-                    enemyHealth.TakeDamage(damage); // Or enemyHealth.Decrement();
+                    enemyHealth.TakeDamage(damage);
                     Debug.Log("Enemy Health after hit: " + enemyHealth.currentHP);
                 }
                 else
@@ -31,8 +39,9 @@ namespace Gameplay
                     Debug.Log("Hit object does not have Health component.");
                 }
 
-                Destroy(gameObject); // Destroy bullet after collision
+                Destroy(gameObject); // Destroy bullet after colliding with an enemy
             }
         }
+
     }
 }
