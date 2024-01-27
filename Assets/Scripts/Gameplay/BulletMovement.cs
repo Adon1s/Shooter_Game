@@ -17,6 +17,14 @@ namespace Gameplay
         void OnCollisionEnter2D(Collision2D collision)
         {
             Debug.Log("Bullet collided with: " + collision.gameObject.name);
+
+            if (collision.gameObject.CompareTag("Level"))
+            {
+                Debug.Log("Bullet collided with level.");
+                Destroy(gameObject);
+                return; // Exit the function to prevent further processing
+            }
+
             if (collision.gameObject.CompareTag("Enemy"))
             {
                 Health enemyHealth = collision.gameObject.GetComponent<Health>();
@@ -31,8 +39,9 @@ namespace Gameplay
                     Debug.Log("Hit object does not have Health component.");
                 }
 
-                Destroy(gameObject); // Destroy bullet after collision
+                Destroy(gameObject); // Destroy bullet after colliding with an enemy
             }
         }
+
     }
 }

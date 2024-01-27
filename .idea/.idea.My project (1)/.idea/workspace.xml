@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f28c0ea1-870a-40e6-ae85-227080004fc6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BulletMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/BulletMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/4 AddAnEnemy.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/4 AddAnEnemy.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/AddAnEnemy 005.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/AddAnEnemy 005.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/AddAnEnemy 031.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/AddAnEnemy 031.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/AddAnEnemy 032.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/AddAnEnemy 032.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/AddAnEnemy 040.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/AddAnEnemy 040.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/AddAnEnemy 20.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/AddAnEnemy 20.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/EnemyPrefabLayout.wlt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/EnemyPrefabLayout.wlt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/WT-Drag-Prefab.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/WT-Drag-Prefab.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/WT-Move-Object.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/WT-Move-Object.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/WT-Scale-Object.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/WT-Scale-Object.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/WT-Select-Move.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/WT-Select-Move.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/WT-Select-Prefab.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/WT-Select-Prefab.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/WT-Select-Scale.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/AddAnEnemy/WT-Select-Scale.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/5 BuildAndPublish.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/5 BuildAndPublish.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 005.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 005.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 010.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 010.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 013.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 013.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 014.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 014.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 015.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 015.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 020.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 020.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 025.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 025.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 030.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/BuildAndPublish 030.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/Criteria.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/Criteria/PublishCriteria.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/Criteria/PublishCriteria.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/Criteria/PublishCriteria.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/Criteria/PublishCriteria.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/Criteria/Unity.2DPlatformer.Tutorials.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/Criteria/Unity.2DPlatformer.Tutorials.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/WT-Create-Build-Click.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/WT-Create-Build-Click.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/WT-Get-Started-Click.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/WT-Get-Started-Click.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/WT-OpenPublisher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/WT-OpenPublisher.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/WT-Publish-Click.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/WT-Publish-Click.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/WT-Publish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/WT-Publish.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/WT-Sign-In.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/WT-Sign-In.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/WT-Upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/WT-Upload.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/header-completed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/BuildAndPublish/header-completed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/3 EditColors.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/3 EditColors.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 01-Introduction.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 01-Introduction.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 05.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 05.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 06.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 06.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 08.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 08.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 15.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 15.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 16.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 16.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 20 - delete.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 20 - delete.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 25.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/EditColors 25.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/WT-Change-Color.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/WT-Change-Color.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/WT-Play.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/WT-Play.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/WT-Select-Gameobject.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/WT-Select-Gameobject.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/WT-Select-and-Frame.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/WT-Select-and-Frame.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/WT-Sprite-Color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditColors/WT-Sprite-Color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/2 EditorControls.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/2 EditorControls.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 01-Introduction.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 01-Introduction.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 02-Scene-View - delete.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 02-Scene-View - delete.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 03-Hand-Tool.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 03-Hand-Tool.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 04-Try-Hand-Tool.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 04-Try-Hand-Tool.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 06-Zoom-Scene.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 06-Zoom-Scene.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 07-Select-Object.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 07-Select-Object.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 17-Select-Move.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 17-Select-Move.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 60-Done.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/EditorControls 60-Done.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Bake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Bake.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Hierarchy-and-Scene.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Hierarchy-and-Scene.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Move-Object.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Move-Object.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Orbit-Hand-Tool.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Orbit-Hand-Tool.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Pan-Hand-Tool.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Pan-Hand-Tool.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Project-Window.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Project-Window.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Select-Hand-Tool.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Select-Hand-Tool.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Select-Move.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Select-Move.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Select-and-Frame.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Select-and-Frame.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Zoom-Scene.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/EditorControls/WT-Zoom-Scene.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/PlatformerIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/PlatformerIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/1 Playtest.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/1 Playtest.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 01-Introduction.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 01-Introduction.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 02-First-Play.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 02-First-Play.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 03-Exit-Play.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 03-Exit-Play.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 05-Select-Object.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 05-Select-Object.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 07-Edit-Speed.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 07-Edit-Speed.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 08-Play-New-Speed.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 08-Play-New-Speed.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 09-Exit-Play.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 09-Exit-Play.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 10-Done.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/Playtest 10-Done.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/WT-Hiearchy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/WT-Hiearchy.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/WT-Inspector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/WT-Inspector.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/WT-Play.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/WT-Play.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/WT-Select-Gameobject.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/WT-Select-Gameobject.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/WT-Select-Property.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Playtest/WT-Select-Property.mov.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Pop.aiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Pop.aiff.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Tutorial Project Settings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Tutorial Project Settings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/TutorialCallbacks.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/TutorialCallbacks.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/TutorialCallbacks.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/TutorialCallbacks.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/TutorialHeader.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/TutorialHeader.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/TutorialLayout.wlt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/TutorialLayout.wlt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Tutorials.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Tutorials.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Unity.Platformer.Tutorials.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/Unity.Platformer.Tutorials.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/WelcomeDialog.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/WelcomeDialog.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/WelcomeDialogArt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tutorials/WelcomeDialogArt.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.connect.share/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.connect.share/Settings.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c20f0ada-3172-483a-9f04-a767dab69726" />
+        <option name="url" value="https://github.com/Adon1s/Shooter_Game.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7c971034553a4412aa7c92428f46e2e51f800/7e/6d1db804/ForceMode2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/BulletFiring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/BulletMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/EnemyDeath.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/HealthIsZero.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/PlayerDeath.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/PlayerEnemyCollision.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/PlayerJumped.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/PlayerLanded.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mechanics/Health.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@14.0.10/Editor/Data/Implementation/NodeUtils.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/LayoutPropertiesPreview.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/CanvasUpdateRegistry.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Steven-PC/Shooter Game/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectId" id="2bS66n4VQsidfrbat2KZWygBQ4j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Steven-PC\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Steven-PC\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Steven-PC\\AppData\\Local\\Symbols\\src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\Steven-PC\My project (1)&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Steven-PC\My project (1)" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\Steven-PC\My project (1)&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Steven-PC\My project (1)" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f28c0ea1-870a-40e6-ae85-227080004fc6" name="Changes" comment="" />
+      <created>1706195959542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706195959542</updated>
+      <workItem from="1706195960629" duration="11936000" />
+      <workItem from="1706263841949" duration="8463000" />
+      <workItem from="1706335533835" duration="3711000" />
+    </task>
+    <task id="LOCAL-00001" summary="Renamed project to &quot;Shooter Game&quot; temporarily">
+      <created>1706335807691</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706335807691</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Renamed project to &quot;Shooter Game&quot; temporarily" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed project to &quot;Shooter Game&quot; temporarily" />
+  </component>
+</project>
