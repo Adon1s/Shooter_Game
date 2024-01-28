@@ -74,7 +74,7 @@ namespace Platformer.Mechanics
 
             if (bulletMovement != null)
             {
-                bulletMovement.LaunchBullet(shootingDirection);
+                bulletMovement.LaunchBullet(shootingDirection, "EnemyBullet");
             }
         }
 

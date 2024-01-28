@@ -208,7 +208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   path: {fileID: 0}
   ouch: {fileID: 8300000, guid: b7f741588644cd64bbee6387cb54a96d, type: 3}
-  bulletPrefab: {fileID: 831599029485293730, guid: 31ec6eb030c60dc4fafda0bcc0303c99,
+  bulletPrefab: {fileID: 6643456207706393745, guid: 9b8175b25c78ae947b313db3ef649fcf,
     type: 3}
   enemyFirePoint: {fileID: 0}
 --- !u!114 &-5096113680670175395
