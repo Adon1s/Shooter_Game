@@ -32,6 +32,7 @@ namespace Gameplay
         void Shoot()
         {
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            bullet.tag = "PlayerBullet";
             BulletMovement bulletMovement = bullet.GetComponent<BulletMovement>();
 
             if (bulletMovement != null)
