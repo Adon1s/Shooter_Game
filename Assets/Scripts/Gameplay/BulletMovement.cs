@@ -15,17 +15,7 @@ namespace Gameplay
             gameObject.tag = bulletTag; // Set the tag dynamically
 
         }
-
-        void OnTriggerEnter2D(Collider2D other)
-        {
-            if (other.gameObject.CompareTag("Player") && this.gameObject.CompareTag("EnemyBullet"))
-            {
-                // Handle interaction with the player, like dealing damage
-                // TODO: Add logic to damage the player
-
-                Destroy(gameObject); // Destroy the enemy bullet
-            }
-        }
+        
 
 
         void OnCollisionEnter2D(Collision2D collision)
@@ -35,6 +25,7 @@ namespace Gameplay
             // Ignore collision if a player bullet hits the player
             if (collision.gameObject.CompareTag("Player") && this.gameObject.CompareTag("PlayerBullet"))
             {
+                Debug.Log("Player bullet hit player");
                 return; // Exit the function to prevent further processing
             }
 
