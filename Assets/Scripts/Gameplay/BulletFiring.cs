@@ -32,12 +32,13 @@ namespace Gameplay
         void Shoot()
         {
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            bullet.tag = "PlayerBullet";
             BulletMovement bulletMovement = bullet.GetComponent<BulletMovement>();
 
             if (bulletMovement != null)
             {
                 bool isFacingLeft = spriteRenderer.flipX;
-                bulletMovement.LaunchBullet(isFacingLeft ? Vector2.left : Vector2.right);
+                bulletMovement.LaunchBullet(isFacingLeft ? Vector2.left : Vector2.right, "PlayerBullet");
             }
         }
 

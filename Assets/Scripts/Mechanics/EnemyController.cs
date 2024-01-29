@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Gameplay;
 using Platformer.Gameplay;
 using UnityEngine;
 using static Platformer.Core.Simulation;
@@ -20,6 +21,9 @@ namespace Platformer.Mechanics
         internal Collider2D _collider;
         internal AudioSource _audio;
         SpriteRenderer spriteRenderer;
+        
+        public GameObject bulletPrefab; // The bullet prefab to shoot
+        public Transform enemyFirePoint; // The point from where the bullet will be fired
 
         public Bounds Bounds => _collider.bounds;
 
@@ -50,6 +54,30 @@ namespace Platformer.Mechanics
                 control.move.x = Mathf.Clamp(mover.Position.x - transform.position.x, -1, 1);
             }
         }
+        // ... other parts of the EnemyController ...
+
+        public void ShootAtPlayer()
+        {
+            // Ensure bulletPrefab and firePoint are assigned
+            if (bulletPrefab == null || enemyFirePoint == null)
+            {
+                Debug.LogError("BulletPrefab or FirePoint not assigned in EnemyController");
+                return;
+            }
+
+            Vector2 playerPosition = FindObjectOfType<PlayerController>().transform.position;
+            Vector2 shootingDirection = (playerPosition - (Vector2)enemyFirePoint.position).normalized;
+
+            GameObject bullet = Instantiate(bulletPrefab, enemyFirePoint.position, Quaternion.identity);
+            bullet.tag = "EnemyBullet";
+            BulletMovement bulletMovement = bullet.GetComponent<BulletMovement>();
+
+            if (bulletMovement != null)
+            {
+                bulletMovement.LaunchBullet(shootingDirection, "EnemyBullet");
+            }
+        }
+
 
     }
 }

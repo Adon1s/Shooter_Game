@@ -9,38 +9,71 @@ namespace Gameplay
         public Rigidbody2D rb;
         public int damage = 1; // Damage the bullet will deal
 
-        public void LaunchBullet(Vector2 direction)
+        public void LaunchBullet(Vector2 direction, string bulletTag)
         {
             rb.velocity = direction * speed;
+            gameObject.tag = bulletTag; // Set the tag dynamically
+
         }
+        
+
 
         void OnCollisionEnter2D(Collision2D collision)
         {
-            Debug.Log("Bullet collided with: " + collision.gameObject.name);
-
-            if (collision.gameObject.CompareTag("Level"))
+            Health enemyHealth = collision.gameObject.GetComponent<Health>();
+            
+            // Ignore collision if a player bullet hits the player
+            if (collision.gameObject.CompareTag("Player") && this.gameObject.CompareTag("PlayerBullet"))
             {
-                Debug.Log("Bullet collided with level.");
-                Destroy(gameObject);
+                Debug.Log("Player bullet hit player");
                 return; // Exit the function to prevent further processing
             }
 
-            if (collision.gameObject.CompareTag("Enemy"))
+            // Ignore collision if an enemy bullet hits another enemy
+            if (collision.gameObject.CompareTag("Enemy") && this.gameObject.CompareTag("EnemyBullet"))
             {
-                Health enemyHealth = collision.gameObject.GetComponent<Health>();
-                if (enemyHealth != null)
-                {
-                    Debug.Log("Enemy Health before hit: " + enemyHealth.currentHP);
-                    enemyHealth.TakeDamage(damage);
-                    Debug.Log("Enemy Health after hit: " + enemyHealth.currentHP);
-                }
-                else
-                {
-                    Debug.Log("Hit object does not have Health component.");
-                }
-
-                Destroy(gameObject); // Destroy bullet after colliding with an enemy
+                return; // Exit the function to prevent further processing
             }
+
+            // Handle collision with the player and enemy bullets
+            if (collision.gameObject.CompareTag("Player") && this.gameObject.CompareTag("EnemyBullet"))
+            {
+                // Perform actions like damaging the player, triggering effects, etc.
+                // ...
+
+                Destroy(gameObject); // Destroy the bullet
+                //TODO playerHealth.TakeDamage(damage);
+
+                return; // Exit the function to prevent further processing
+            }
+
+            // Handle collision with the enemy (bullet fired by player)
+            if (collision.gameObject.CompareTag("Enemy") && this.gameObject.CompareTag("PlayerBullet"))
+            {
+                // Perform actions like damaging the enemy, triggering effects, etc.
+                // ...
+                enemyHealth.TakeDamage(damage);
+                Destroy(gameObject); // Destroy the bullet
+                Debug.Log("Enemy health = " + enemyHealth);
+
+                return; // Exit the function to prevent further processing
+            }
+
+            // Handle collision with the environment or other objects
+            if (collision.gameObject.CompareTag("Level"))
+            {
+                // Trigger effects like bullet impact, etc.
+                // ...
+
+                Destroy(gameObject); // Destroy the bullet
+                return; // Exit the function to prevent further processing
+            }
+
+            // Optionally, handle other specific collisions here
+            // ...
+
+            // Destroy the bullet for any other type of collision not covered above
+            Destroy(gameObject);
         }
 
     }
