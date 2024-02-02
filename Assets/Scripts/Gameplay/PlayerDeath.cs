@@ -16,11 +16,10 @@ namespace Platformer.Gameplay
 
         public override void Execute()
         {
+            Debug.Log("Player death");
+            Debug.Log("player is alive?" + model.player.health.IsAlive);
             var player = model.player;
-            if (player.health.IsAlive)
-            {
-                player.health.Die();
-                // player.collider.enabled = false;
+            Debug.Log("Player death2");
                 player.controlEnabled = false;
 
                 if (player.audioSource && player.ouchAudio)
@@ -28,7 +27,7 @@ namespace Platformer.Gameplay
                 player.animator.SetTrigger("hurt");
                 player.animator.SetBool("dead", true);
                 Simulation.Schedule<PlayerSpawn>(2);
-            }
+            
         }
     }
 }

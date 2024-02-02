@@ -9,6 +9,7 @@ TagManager:
   - Level
   - PlayerBullet
   - EnemyBullet
+  - SpeedBlock
   layers:
   - Default
   - TransparentFX
@@ -19,8 +20,8 @@ TagManager:
   - 
   - 
   - Player
-  - Enemy
-  - Bullet
+  - EnemyBullet
+  - PlayerBullet
   - 
   - 
   - 

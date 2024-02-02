@@ -13,6 +13,7 @@ namespace Platformer.Gameplay
     {
         public PlayerController player;
         public TokenInstance token;
+        
 
         PlatformerModel model = Simulation.GetModel<PlatformerModel>();
 

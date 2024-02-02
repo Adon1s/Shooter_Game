@@ -38,11 +38,22 @@ namespace Gameplay
             // Handle collision with the player and enemy bullets
             if (collision.gameObject.CompareTag("Player") && this.gameObject.CompareTag("EnemyBullet"))
             {
-                // Perform actions like damaging the player, triggering effects, etc.
-                // ...
+                Debug.Log("Enemy bullet hit player");
+        
+                // Retrieve the Health component from the player GameObject.
+                Health playerHealth = collision.gameObject.GetComponent<Health>();
+                if (playerHealth != null)
+                {
+                    // Apply damage to the player.
+                    playerHealth.TakeDamage(damage);
+                    Debug.Log("Player health = " + playerHealth.currentHP);
+                }
+                else
+                {
+                    Debug.LogError("No Health component found on the player.");
+                }
 
                 Destroy(gameObject); // Destroy the bullet
-                //TODO playerHealth.TakeDamage(damage);
 
                 return; // Exit the function to prevent further processing
             }
@@ -54,7 +65,7 @@ namespace Gameplay
                 // ...
                 enemyHealth.TakeDamage(damage);
                 Destroy(gameObject); // Destroy the bullet
-                Debug.Log("Enemy health = " + enemyHealth);
+                Debug.Log("Enemy health = " + enemyHealth.currentHP);
 
                 return; // Exit the function to prevent further processing
             }
@@ -64,7 +75,6 @@ namespace Gameplay
             {
                 // Trigger effects like bullet impact, etc.
                 // ...
-
                 Destroy(gameObject); // Destroy the bullet
                 return; // Exit the function to prevent further processing
             }

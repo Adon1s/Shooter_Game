@@ -64,7 +64,6 @@ namespace Platformer.Mechanics
                 Debug.LogError("BulletPrefab or FirePoint not assigned in EnemyController");
                 return;
             }
-
             Vector2 playerPosition = FindObjectOfType<PlayerController>().transform.position;
             Vector2 shootingDirection = (playerPosition - (Vector2)enemyFirePoint.position).normalized;
 

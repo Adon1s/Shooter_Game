@@ -50,8 +50,11 @@ namespace Platformer.Mechanics
         public void TakeDamage(int damage)
         {
             currentHP = Mathf.Clamp(currentHP - damage, 0, maxHP);
+            Debug.Log("Taking damage" + currentHP);
+            Debug.Log("player is alive?" + IsAlive);
             if (currentHP == 0)
             {
+                Debug.Log(IsAlive);
                 var ev = Schedule<HealthIsZero>();
                 ev.health = this;
             }
